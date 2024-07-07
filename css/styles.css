@@ -32,7 +32,6 @@ img {
     margin: -1px;
     border: 0;
     padding: 0;
-    
     white-space: nowrap;
     overflow: hidden;
   }
@@ -50,7 +49,6 @@ img {
 }
 
 .header {
-    padding: 24px 0;
     border-bottom: 1px solid #e7e9fc
 }
 
@@ -88,6 +86,7 @@ img {
 }
 
 .header-menu-item {
+    padding: 24px 0;
 }
 
 .header-menu-link {
