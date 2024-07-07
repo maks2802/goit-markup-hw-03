@@ -24,6 +24,19 @@ img {
     display: block;
 }
 
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
 .container {
     max-width: 1158px;
     padding-left: 15px;
@@ -37,8 +50,8 @@ img {
 }
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-container {
@@ -117,6 +130,7 @@ img {
 
 .article {
     background: #2e2f42;
+    padding: 188px 0
 }
 
 .article-title {
@@ -142,6 +156,10 @@ img {
     display: block;
     margin: 0 auto;
     padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .article-btn:hover,
@@ -150,9 +168,6 @@ img {
 }
 
 .features {
-}
-
-.features-title {
 }
 
 .features-list {
@@ -203,10 +218,14 @@ img {
 .team-item {
     background-color: #FFFFFF;
     width: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px; 
 }
 
 .team-image {
-    margin-bottom: 32px;
+}
+
+.team-mix {
+    padding: 32px 0;
 }
 
 .team-subtitle {
@@ -225,7 +244,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    margin-bottom: 32px;
 }
 
 .portfolio {
@@ -252,7 +270,12 @@ img {
 }
 
 .portfolio-image {
-    margin-bottom: 32px;
+}
+
+.portfolio-mix {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-subtitle {
@@ -262,7 +285,6 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    margin-left: 16px;
 }
 
 .portfolio-text {
@@ -270,8 +292,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 32px;
-    margin-left: 16px;
 }
 
 .footer {
@@ -281,6 +301,8 @@ img {
 }
 
 .footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-color {
@@ -293,7 +315,6 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    margin-top: 16px;
 }
 
 
